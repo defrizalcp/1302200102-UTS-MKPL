@@ -13,7 +13,13 @@ public class Employee {
 	private String idNumber;		
 	private String address;
 
+<<<<<<< HEAD
 	private LocalDate joinDate;
+=======
+	private int yearJoined;																												
+	private int monthJoined;
+	private int dayJoined;
+>>>>>>> fecfc3fec46f5cfd93a860da7bb9ec995783a188
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
@@ -29,7 +35,11 @@ public class Employee {
 	private List<String> childNames;
 	private List<String> childIdNumbers;
 	
+<<<<<<< HEAD
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, LocalDate joinDate, boolean isForeigner, Gender gender) 
+=======
+	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, Gender gender) 
+>>>>>>> fecfc3fec46f5cfd93a860da7bb9ec995783a188
 	{
 		this.employeeId = employeeId;
 		this.firstName = firstName;
